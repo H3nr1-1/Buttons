@@ -1,0 +1,54 @@
+/**
+ * Call To Action (CTA)
+ * CTA - More (Read More)
+ * Container Styles
+ * Button Styles
+ * Clear floating images if needed
+ */
+ .cta-more {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    clear: both;
+    margin: 1rem 0;
+    padding: 1rem 0;
+}
+
+.cta-more-link {
+    font-size: 1.2em;
+    line-height: 2;
+    margin: 10px;
+    padding: 0 1em;
+    text-decoration: none;
+    border-radius: .5em;
+    border: 1px solid hsl(0, 0%, 0%);
+    font-weight: bold;
+    transition: all .3s ease-in-out;
+}
+
+.cta-more-link-success {
+    color: black;
+    background: lightgreen;
+    box-shadow: 0 0em .5em currentColor;
+}
+
+/**
+ * Hover and Active States
+ * Link state is set in .cta-more-link
+ * Focus is based on browser default
+ */
+ .cta-more-link:hover {
+    box-shadow: none;
+}
+
+.cta-more-link:active {
+    box-shadow: inset 0 2px 4px hsla(0, 0%, 0%, 1);
+}
+
+.cta-more-link-small {
+    font-size: 1em;
+}
+
+.cta-more-link-large {
+    font-size: 1.8em;
+}
